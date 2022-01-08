@@ -1,4 +1,4 @@
-// Adding class after on scroll
+// Adding class on scroll
 $(function () {
   $(document).scroll(function () {
     var $moblieheader = $(".scroll-change");
@@ -9,7 +9,7 @@ $(function () {
   });
 });
 
-// Adding class after header
+// Adding class after scroll past header
 $(function () {
   $(document).scroll(function () {
     var $header = $("header");

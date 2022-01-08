@@ -20,19 +20,19 @@ body {
 
 @font-face {
   font-family: "DIN-Mittelschrift";
-  src: url("/assets/fonts/DIN-Mittelschrift.ttf");
+  src: url("../fonts/DIN-Mittelschrift.ttf");
 }
 @font-face {
   font-family: "DIN-Neuzeit-Grotesk-Light";
-  src: url("/assets/fonts/DIN-Neuzeit-Grotesk-Light.ttf");
+  src: url("../fonts/DIN-Neuzeit-Grotesk-Light.ttf");
 }
 @font-face {
   font-family: "DIN-Alternate-Bold";
-  src: url("/assets/fonts/DIN-Alternate-Bold.ttf");
+  src: url("../fonts/DIN-Alternate-Bold.ttf");
 }
 
 header {
-  background-image: url("/assets/images/header.png");
+  background-image: url("../images/header.png");
   background-position: top 50% left 60%;
   object-fit: contain;
   height: auto;
