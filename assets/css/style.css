@@ -47,7 +47,7 @@ header {
 
 .header-text h1 {
   font-family: "DIN-Mittelschrift";
-  word-spacing: -7px;
+  word-spacing: -9px;
   line-height: 3.5rem;
   color: var(--echo-orange);
   font-size: 4.5rem;
@@ -73,7 +73,7 @@ header {
 h2 {
   text-align: center;
   font-family: "DIN-Mittelschrift", sans-serif;
-  word-spacing: -5px;
+  word-spacing: -8px;
   color: var(--grey-text);
   font-size: 4rem;
   margin-bottom: 0rem;
@@ -197,6 +197,9 @@ p {
   font-family: "DIN-Neuzeit-Grotesk-Light";
   margin-top: 0px;
   width: 250px;
+}
+.caseStudy-left h2 {
+  word-spacing: -10px;
 }
 
 .caseStudy-right {
