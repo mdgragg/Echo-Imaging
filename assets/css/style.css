@@ -33,10 +33,36 @@ body {
 
 header {
   background-image: url("../images/header.png");
-  background-position: top 50% left 60%;
-  object-fit: contain;
+  background-position: top 40% left 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: auto;
   min-height: 450px;
+}
+
+.header-text {
+  max-width: 650px;
+  margin: 9rem 3rem 2rem 3rem;
+}
+
+.header-text h1 {
+  font-family: "DIN-Mittelschrift";
+  word-spacing: -7px;
+  line-height: 3.5rem;
+  color: var(--echo-orange);
+  font-size: 4.5rem;
+}
+
+.header-text p {
+  margin-top: -10px;
+  font-family: "DIN-Neuzeit-Grotesk-Light";
+  color: white;
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+}
+
+.header-text span {
+  color: var(--echo-yellow);
 }
 
 .scroll-change {
@@ -47,9 +73,14 @@ header {
 h2 {
   text-align: center;
   font-family: "DIN-Mittelschrift", sans-serif;
+  word-spacing: -5px;
   color: var(--grey-text);
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 0rem;
+}
+
+p {
+  font-size: 1.2rem;
 }
 
 .navbar {
@@ -104,6 +135,7 @@ h2 {
 
 .uk-offcanvas-bar div .uk-nav li a {
   font-family: "DIN-Mittelschrift", sans-serif;
+  word-spacing: -2px;
   font-size: 1.7rem;
   color: var(--grey-text);
   line-height: 1.7rem;
@@ -125,37 +157,14 @@ h2 {
   margin: auto;
 }
 
-.header-text {
-  width: 60%;
-  max-width: 550px;
-  margin: 8rem 3rem 2rem 3rem;
-}
-
-.header-text h1 {
-  font-family: "DIN-Mittelschrift";
-  line-height: 2.6rem;
-  color: var(--echo-orange);
-  font-size: 3.5rem;
-}
-
-.header-text p {
-  font-family: "DIN-Neuzeit-Grotesk-Light";
-  color: white;
-  font-size: 1.5rem;
-  padding-bottom: 30px;
-}
-
-.header-text span {
-  color: var(--echo-yellow);
-}
-
 .icon-container {
   margin: auto;
-  margin: 5rem auto;
+  margin: 4rem auto;
   text-align: center;
 }
 .icons {
   margin: auto;
+  padding: 1rem 1.8rem;
   width: 275px;
   cursor: pointer;
 }
@@ -179,20 +188,15 @@ h2 {
   grid-template-columns: 30% 70%;
 }
 .caseStudy-left {
-  text-align: right;
-  margin: 6rem 2rem 0rem 2rem;
-}
-
-.caseStudy-left h2 {
-  text-align: right;
+  margin: auto;
+  max-width: fit-content;
+  align-self: center;
 }
 
 .caseStudy-left p {
   font-family: "DIN-Neuzeit-Grotesk-Light";
   margin-top: 0px;
-  text-align: right;
   width: 250px;
-  float: right;
 }
 
 .caseStudy-right {
@@ -218,6 +222,7 @@ h2 {
 
 .image-slider .uk-slider-items li .uk-overlay-primary p {
   font-family: "DIN-Mittelschrift";
+  word-spacing: -5px;
   font-size: 2.5rem;
   margin-bottom: 0rem;
 }
@@ -271,6 +276,7 @@ h2 {
 
 .uk-modal-body h3 {
   font-family: "DIN-Mittelschrift";
+  word-spacing: -2px;
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 2.2rem;
@@ -339,11 +345,6 @@ h2 {
   font-family: "DIN-Neuzeit-Grotesk-Light";
 }
 
-.testimonial p span {
-  font-family: "DIN-Mittelschrift";
-  font-size: 18px;
-}
-
 .testimonial-blue {
   color: var(--echo-blue);
 }
@@ -382,7 +383,7 @@ h2 {
 
 .client-text {
   text-align: center;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0px auto 25px auto;
 }
 
@@ -405,6 +406,9 @@ footer div {
   font-family: "DIN-Alternate-Bold";
   margin: auto;
   margin-top: 25px;
+}
+footer p {
+  font-size: 1rem;
 }
 
 .footer-logo {
