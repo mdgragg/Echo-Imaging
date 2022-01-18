@@ -158,19 +158,18 @@ p {
 }
 
 .icon-container {
-  margin: auto;
-  margin: 4rem auto;
+  margin: 4rem 2rem;
   text-align: center;
 }
 .icons {
-  margin: auto;
-  padding: 1rem 1.8rem;
-  width: 275px;
+  margin: 0rem 4rem;
+  padding: 1rem 2rem;
+  width: 305px;
   cursor: pointer;
 }
 
 .icons:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
   transition: all 0.2s ease-in-out;
 }
 
@@ -391,9 +390,9 @@ p {
 }
 
 .client-logo {
-  width: 300px;
+  width: 320px;
   margin: auto;
-  padding: 0rem 1.5rem;
+  padding: 0rem 1rem;
 }
 
 footer {
