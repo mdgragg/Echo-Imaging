@@ -33,7 +33,7 @@
     color: black;
   }
 }
-@media all and (max-width: 1800px) {
+@media all and (max-width: 1820px) {
   .icon-container {
     margin: rem 0rem;
     text-align: center;
@@ -43,6 +43,15 @@
     margin: 0rem 0.5rem;
     padding: 1rem 1.5rem;
     width: 275px;
+  }
+
+  .caseStudy-left p {
+    margin-top: 0px;
+    width: 250px;
+    font-size: 1.2rem;
+  }
+  .caseStudy-left h2 {
+    font-size: 4rem;
   }
 }
 
@@ -126,6 +135,7 @@
 
   .caseStudy-left h2 {
     text-align: left;
+    font-size: 3rem;
   }
 
   .caseStudy-left p {

@@ -194,11 +194,14 @@ p {
 
 .caseStudy-left p {
   font-family: "DIN-Neuzeit-Grotesk-Light";
-  margin-top: 0px;
-  width: 250px;
+  font-size: 1.5rem;
+  margin-top: -10px;
+  width: 350px;
   color: #7c7c7c;
 }
 .caseStudy-left h2 {
+  font-size: 5rem;
+  text-align: left;
   word-spacing: -10px;
 }
 
@@ -340,7 +343,7 @@ p {
 }
 
 .uk-container .uk-slideshow-items {
-  min-height: 200px !important;
+  min-height: 230px !important;
 }
 
 .testimonial {
@@ -360,6 +363,10 @@ p {
 }
 .testimonial-green {
   color: var(--echo-green);
+}
+
+.uk-slideshow-nav {
+  margin-top: 30px;
 }
 
 .uk-dotnav > * > * {
