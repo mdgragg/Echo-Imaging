@@ -196,6 +196,7 @@ p {
   font-family: "DIN-Neuzeit-Grotesk-Light";
   margin-top: 0px;
   width: 250px;
+  color: #7c7c7c;
 }
 .caseStudy-left h2 {
   word-spacing: -10px;
@@ -345,6 +346,7 @@ p {
 .testimonial {
   max-width: 600px;
   font-family: "DIN-Neuzeit-Grotesk-Light";
+  color: #414042;
 }
 
 .testimonial-blue {
@@ -387,6 +389,7 @@ p {
   text-align: center;
   max-width: 700px;
   margin: 0px auto 25px auto;
+  color: #414042;
 }
 
 .client-logo {
