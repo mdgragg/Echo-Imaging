@@ -184,6 +184,7 @@ hr {
 
 .green-box p span .large-text {
   font-size: 2.5rem;
+  word-spacing: -8px;
 }
 
 .blue-box {
