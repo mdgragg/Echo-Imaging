@@ -14,7 +14,7 @@
   }
 
   .scrolled .logo {
-    content: url("../images/echo-logo.png");
+    content: url("../images/logos/echo-white-blue.png");
   }
 
   .scrolled .menu {
@@ -26,7 +26,7 @@
   }
 
   .scrolled-mobile .logo {
-    content: url("../images/echo-logo-black.png");
+    content: url("../images/logos/echo-black-blue.png");
   }
 
   .scrolled-mobile .menu {
@@ -99,7 +99,7 @@
   }
 
   .scrolled .logo {
-    content: url("../images/echo-logo.png");
+    content: url("../images/logos/echo-white-blue.png");
   }
 
   .scrolled .menu {
@@ -111,7 +111,7 @@
   }
 
   .scrolled-mobile .logo {
-    content: url("../images/echo-logo-black.png");
+    content: url("../images/logos/echo-black-blue.png");
   }
 
   .scrolled-mobile .menu {

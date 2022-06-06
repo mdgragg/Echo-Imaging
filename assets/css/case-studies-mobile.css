@@ -1,0 +1,384 @@
+@media all and (max-width: 2200px) {
+  header {
+    padding-bottom: 65px;
+  }
+
+  .scrolled .RIDGE-navbar {
+    background: rgba(181, 201, 122, 0.8);
+  }
+
+  .valent-navbar {
+    background: rgba(30, 169, 220, 0.8);
+  }
+
+  .scrolled .valent-navbar {
+    background: rgba(30, 169, 220, 0.8);
+  }
+
+  .TMTP-navbar {
+    background: rgba(255, 90, 37, 0.8);
+  }
+
+  .scrolled .TMTP-navbar {
+    background: rgba(255, 90, 37, 0.8);
+  }
+
+  .scroll-change {
+    min-height: 40px;
+    max-height: 40px;
+    padding-bottom: 0px;
+  }
+
+  .scrolled .logo {
+    content: url("../images/logos/echo-white-black.png");
+  }
+
+  .scrolled .menu {
+    color: white;
+  }
+
+  .scrolled-mobile .RIDGE-navbar {
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .scrolled-mobile .valent-navbar {
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .scrolled-mobile .TMTP-navbar {
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .scrolled-mobile .logo {
+    content: url("../images/logos/echo-black-blue.png");
+  }
+
+  .scrolled-mobile .menu {
+    color: black;
+  }
+  .RIDGE-header .header-text p {
+    stroke: red;
+    stroke-width: 3;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .header-text {
+    width: 90%;
+  }
+  .RIDGE-header .header-text p {
+    text-shadow: none;
+  }
+  .RIDGE-navbar {
+    background: rgba(181, 201, 122, 0.8);
+  }
+
+  .scrolled .RIDGE-navbar {
+    background: rgba(181, 201, 122, 0.8);
+  }
+
+  .valent-navbar {
+    background: rgba(30, 169, 220, 0.8);
+  }
+
+  .scrolled .valent-navbar {
+    background: rgba(30, 169, 220, 0.8);
+  }
+
+  .TMTP-navbar {
+    background: rgba(255, 90, 37, 0.8);
+  }
+
+  .scrolled .TMTP-navbar {
+    background: rgba(255, 90, 37, 0.8);
+  }
+
+  .scroll-change {
+    min-height: 40px;
+    max-height: 40px;
+    padding-bottom: 0px;
+  }
+
+  .scrolled .logo {
+    content: url("../images/logos/echo-white-black.png");
+  }
+
+  .scrolled .menu {
+    color: black;
+  }
+
+  .scrolled-mobile .RIDGE-navbar {
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .scrolled-mobile .valent-navbar {
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .scrolled-mobile .TMTP-navbar {
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .scrolled-mobile .logo {
+    content: url("../images/logos/echo-black-blue.png");
+  }
+
+  .case-study-body {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .with-image {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+
+  .with-image {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+
+  .case-study-body p {
+    font-size: 1.3rem;
+  }
+
+  .case-study-body ul {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 3rem;
+  }
+
+  .with-image ul {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 85%;
+    gap: 0.5rem;
+    height: auto;
+  }
+
+  .valent-imgs {
+    justify-self: center;
+  }
+  .valent-img {
+    width: 250px;
+  }
+
+  .with-image .green-box {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .blue-box {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 2rem;
+  }
+
+  .blue-box ul {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 2rem;
+    margin-top: -25px;
+  }
+
+  .blue-box ul li {
+    margin-top: -20px;
+  }
+
+  .orange-box {
+    padding: 1rem;
+  }
+
+  .orange-box img {
+    margin-top: 10px;
+  }
+
+  .orange-box p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .TMTP-img {
+    width: 100%;
+    max-width: 350px;
+    justify-self: center;
+  }
+}
+
+@media all and (max-width: 640px) {
+  .uk-offcanvas-bar {
+    padding-top: 10rem;
+  }
+
+  .logo {
+    width: 200px;
+    margin: 1rem 2rem;
+  }
+
+  .menu {
+    top: 0.5rem;
+    right: 1rem;
+  }
+
+  .menu svg {
+    width: 40px;
+  }
+
+  .RIDGE-header header {
+    min-height: 250px;
+  }
+
+  .valent-header header {
+    min-height: 250px;
+  }
+
+  .TMTP-header header {
+    min-height: 250px;
+  }
+
+  .header-text {
+    width: 90%;
+  }
+
+  .header-text p {
+    bottom: -11px;
+    font-size: 1rem;
+  }
+
+  .header-text span {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 0rem;
+  }
+
+  .case-study-body {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .with-image {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .with-image {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .case-study-body p {
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+  }
+
+  .case-study-body ul {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 0.5rem;
+  }
+
+  .with-image ul {
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 85%;
+    gap: 0.5rem;
+    height: auto;
+  }
+
+  .RIDGE-img {
+    width: 100%;
+    max-width: 350px;
+    justify-self: center;
+  }
+
+  .valent-img {
+    width: 100%;
+    max-width: 350px;
+    justify-self: center;
+  }
+
+  .TMTP-img {
+    width: 100%;
+    max-width: 280px;
+    justify-self: center;
+  }
+
+  .with-image .green-box {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .green-box p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+  .valent-imgs {
+    justify-self: center;
+  }
+  .valent-img {
+    width: 180px;
+  }
+
+  .with-image .green-box {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .blue-box p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+  .blue-box {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 2rem;
+  }
+
+  .blue-box ul {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 2rem;
+    margin-top: -15px;
+  }
+
+  .blue-box ul li {
+    margin-top: -20px;
+    line-height: 5px;
+  }
+
+  .orange-box {
+    padding: 1rem;
+  }
+
+  .orange-box img {
+    margin-top: 1rem;
+  }
+
+  .orange-box p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+
+  footer {
+    background: #414042;
+    color: white;
+    height: 100%;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  footer div {
+    font-family: "DIN-Alternate-Bold";
+    margin: auto;
+    margin-top: 25px;
+  }
+
+  .footer-logo {
+    margin-bottom: 0.5rem;
+    width: 200px;
+    clear: both;
+  }
+}
