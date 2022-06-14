@@ -200,6 +200,7 @@ p {
   font-size: 2.5rem;
   padding: 45px;
   line-height: normal;
+  word-spacing: -3px;
 }
 
 .image-slider .uk-slider-items li .uk-overlay-primary a {

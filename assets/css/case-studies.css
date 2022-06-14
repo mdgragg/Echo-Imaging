@@ -25,13 +25,30 @@
   src: url("../fonts/DIN-Alternate-Bold.ttf");
 }
 
-.RIDGE-header header {
-  background-image: url("../images/case-studies/RIDGE/RIDGE-header.jpg");
-  background-size: cover;
-  background-position: 100% 15%;
+/* .RIDGE-header header {
+  background-image: url("../images/case-studies/RIDGE/RIDGE-header.jpg"),
+    linear-gradient(
+      90deg,
+      rgba(187, 206, 125, 1) 0%,
+      rgba(176, 198, 120, 1) 100%
+    );
+  background-size: contain;
+  background-position: top center;
   background-repeat: no-repeat;
   height: auto;
   min-height: 350px;
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 100%;
+} */
+
+.RIDGE-header header {
+  background-image: url("../images/case-studies/RIDGE/RIDGE-header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  min-height: 550px;
   margin-bottom: 2rem;
 }
 
@@ -45,7 +62,7 @@
   background-position: center;
   background-repeat: no-repeat;
   height: auto;
-  min-height: 350px;
+  min-height: 550px;
   margin-bottom: 2rem;
 }
 
@@ -59,7 +76,7 @@
   background-position: center;
   background-repeat: no-repeat;
   height: auto;
-  min-height: 350px;
+  min-height: 550px;
   margin-bottom: 2rem;
 }
 
@@ -69,14 +86,19 @@
 
 .header-text p {
   position: absolute;
-  bottom: -14px;
+  bottom: -17px;
   font-family: "DIN-Mittelschrift";
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
+}
+
+.header-text .arrow {
+  font-family: "DIN-Alternate-Bold";
+  font-size: 1.5rem;
 }
 
 .header-text span {
-  font-size: 2rem;
+  font-size: 3rem;
   word-spacing: -5px;
 }
 
@@ -107,39 +129,51 @@
   margin-bottom: 2.5rem;
 }
 
-hr {
-  border-top: 2px dashed lightgrey;
-  margin-bottom: 2.5rem;
-}
-
 .case-study-body p {
   font-size: 1.3rem;
-  line-height: 2.5rem;
+  line-height: 2.4rem;
 }
 
 .case-study-body ul {
   margin-top: 0px;
+  font-size: 1.7rem;
+  color: #c1ce76;
+  font-family: "DIN-Mittelschrift";
+  word-spacing: -3px;
+}
+
+.case-study-body ul li .title {
+  font-size: 1.7rem;
   color: var(--ridge-green);
 }
+
 .valent ul {
   margin-top: 0px;
+  color: #a1e0ff;
+}
+
+.valent ul li .title {
   color: var(--valent-blue);
 }
 
 .TMTP ul {
   margin-top: 0px;
+  color: #e87556;
+}
+
+.TMTP ul li .title {
   color: var(--TMTP-orange);
 }
 
 .case-study-body li {
   margin-bottom: 1rem;
-  line-height: normal;
+  line-height: 1rem;
 }
 
 .case-study-body ul li span {
-  font-size: 1rem;
+  font-size: 1.4rem;
   color: grey;
-  line-height: 1.7rem;
+  line-height: 1.5rem;
 }
 
 .RIDGE-img {
