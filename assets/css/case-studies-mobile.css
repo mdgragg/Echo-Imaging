@@ -50,7 +50,7 @@
   }
 
   .scrolled-mobile .logo {
-    content: url("../images/logos/echo-black-blue.png");
+    content: url("../images/logos/echo-black-grey.png");
   }
 
   .scrolled-mobile .menu {
@@ -79,6 +79,7 @@
 
   .TMTP-header header {
     min-height: 350px;
+    background-position: 35%;
   }
 
   .header-text {
@@ -86,7 +87,7 @@
   }
 
   .header-text p {
-    bottom: -20px;
+    bottom: -19px;
     font-size: 1.4rem;
   }
 
@@ -149,7 +150,7 @@
   }
 
   .scrolled-mobile .logo {
-    content: url("../images/logos/echo-black-blue.png");
+    content: url("../images/logos/echo-black-grey.png");
   }
 
   .case-study-body {
@@ -254,7 +255,7 @@
 
   .RIDGE-header header {
     min-height: 300px;
-    background-position: 25%;
+    background-position: 40%;
   }
 
   .valent-header header {
@@ -272,7 +273,7 @@
   }
 
   .header-text p {
-    bottom: -13px;
+    bottom: -14px;
     font-size: 1.3rem;
   }
 

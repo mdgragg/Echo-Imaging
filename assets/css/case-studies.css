@@ -25,23 +25,6 @@
   src: url("../fonts/DIN-Alternate-Bold.ttf");
 }
 
-/* .RIDGE-header header {
-  background-image: url("../images/case-studies/RIDGE/RIDGE-header.jpg"),
-    linear-gradient(
-      90deg,
-      rgba(187, 206, 125, 1) 0%,
-      rgba(176, 198, 120, 1) 100%
-    );
-  background-size: contain;
-  background-position: top center;
-  background-repeat: no-repeat;
-  height: auto;
-  min-height: 350px;
-  margin-bottom: 2rem;
-  width: 100%;
-  height: 100%;
-} */
-
 .RIDGE-header header {
   background-image: url("../images/case-studies/RIDGE/RIDGE-header.jpg");
   background-size: cover;
@@ -86,7 +69,7 @@
 
 .header-text p {
   position: absolute;
-  bottom: -17px;
+  bottom: -26px;
   font-family: "DIN-Mittelschrift";
   color: black;
   font-size: 1.7rem;
@@ -98,7 +81,7 @@
 }
 
 .header-text span {
-  font-size: 3rem;
+  font-size: 3.7rem;
   word-spacing: -5px;
 }
 
