@@ -205,13 +205,20 @@
 
   .blue-box ul {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    gap: 2rem;
-    margin-top: -25px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 0rem;
+    margin-top: -35px;
+    margin-left: 30px;
   }
 
   .blue-box ul li {
-    margin-top: -20px;
+    margin-top: -35px;
+    padding: 0px 5px;
+    font-size: 1rem;
+  }
+
+  .blue-box ul li span {
+    font-size: 1.3rem;
   }
 
   .orange-box {
@@ -283,10 +290,16 @@
   }
 
   .header-text span {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    line-height: 2.2rem;
     word-spacing: -5px;
-    margin-top: -10px;
+    margin-top: -5px;
+    margin-bottom: 10px;
     display: block;
+  }
+
+  .TMTP-header .header-text span {
+    width: 260px;
   }
 
   h2 {
@@ -378,13 +391,12 @@
 
   .blue-box ul {
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 100%;
     gap: 2rem;
-    margin-top: -15px;
   }
 
   .blue-box ul li {
-    margin-top: -20px;
+    margin-top: -25px;
     line-height: 5px;
   }
 

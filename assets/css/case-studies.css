@@ -210,22 +210,32 @@
   padding: 1rem;
   height: min-content;
   display: grid;
-  grid-template-columns: 55% 20% 20%;
-  gap: 2rem;
+  grid-template-columns: 46% 22% 22%;
+  gap: 2.5rem;
 }
 
 .blue-box p {
-  font-size: 1.5rem;
+  padding: 15px;
+  font-size: 1.3rem;
   color: var(--valent-lightblue);
-  line-height: 2rem;
+  line-height: 1.6rem;
   font-family: "DIN-Mittelschrift";
   word-spacing: -3px;
 }
 .blue-box p span {
   color: white;
+  font-size: 1.6rem;
 }
+
 .blue-box ul {
+  padding: 15px 5px;
+}
+
+.blue-box ul li span {
   color: white;
+  line-height: 1.3rem;
+  font-size: 1.5rem;
+  padding: 0 10px 0 0;
 }
 
 .orange-box {
