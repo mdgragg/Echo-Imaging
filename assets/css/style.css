@@ -112,6 +112,19 @@ footer {
   display: grid;
   grid-template-columns: 33% 33% 33%;
 }
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
+}
+footer a img:hover {
+  color: white;
+  opacity: 1;
+  text-decoration: none;
+}
 footer div {
   font-family: "DIN-Alternate-Bold";
   margin: auto;

@@ -1,0 +1,110 @@
+.main-header header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  min-height: 550px;
+  margin-bottom: 2rem;
+}
+
+.USBs-header header {
+  background-image: url("../images/products-services/USBs-header.png");
+}
+
+.digital-header header {
+  background-image: url("../images/products-services/digital-media-header.png");
+}
+
+.branded-header header {
+  background-image: url("../images/products-services/branded-merchandise-header.png");
+}
+
+.kitting-header header {
+  background-image: url("../images/products-services/kitting-packaging-header.png");
+}
+
+.header-text h1 {
+  margin-top: 305px;
+  text-align: center;
+  font-size: 3.7rem;
+  font-family: "DIN-Mittelschrift";
+  color: white;
+  text-transform: uppercase;
+}
+.USBs-header .header-text h1 {
+  text-transform: none;
+}
+.branded-header .header-text h1,
+.kitting-header .header-text h1 {
+  margin: 285px auto 0px auto;
+  max-width: 400px;
+  text-align: center;
+  line-height: normal;
+}
+
+.kitting-header .header-text h1 span {
+  letter-spacing: 2px;
+}
+
+.scroll-change {
+  min-height: 350px;
+  padding-bottom: 45px;
+}
+
+.navbar {
+  border-top: 10px solid #414042;
+}
+
+.logo {
+  cursor: pointer;
+  width: 250px;
+  margin: 2rem 3rem;
+  content: url("../images/logos/echo-white-grey.png");
+}
+
+.scrolled .logo {
+  content: url("../images/logos/echo-white-black.png");
+}
+
+.PS-body {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding: 0.5rem 4rem;
+}
+
+.PS-body p {
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 2.4rem;
+}
+
+.PS-body .uk-button {
+  width: 170px;
+  padding: 5px;
+  margin: 3px;
+  font-family: "DIN-Alternate-Bold";
+  color: white;
+  text-transform: none;
+}
+
+.USBs .button-1 {
+  background-color: var(--echo-green);
+}
+.digital .button-1 {
+  background-color: var(--echo-purple);
+}
+.branded .button-1 {
+  background-color: var(--echo-orange);
+}
+.kitting .button-1 {
+  background-color: var(--echo-blue);
+}
+.PS-body .button-2 {
+  background-color: #c6ccc2;
+  color: #58595b;
+}
+
+.PS-body .uk-button:hover {
+  opacity: 0.8;
+}
