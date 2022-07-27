@@ -3,13 +3,13 @@ body {
 }
 
 :root {
-  --echo-orange: #f98064;
+  --echo-orange: #e06e53;
   --echo-lightorange: rgba(249, 128, 100, 0.8);
   --echo-yellow: #e1d555;
   --echo-lightyellow: rgba(225, 213, 85, 0.8);
-  --echo-green: #95b76e;
-  --echo-lightgreen: rgba(149, 183, 110, 0.8);
-  --echo-blue: #5db8d1;
+  --echo-green: #88ba67;
+  --echo-lightgreen: rgba(136, 186, 103, 0.8);
+  --echo-blue: #3ab7cc;
   --echo-lightblue: rgba(93, 184, 209, 0.8);
   --echo-purple: #b767b7;
   --echo-lightpurple: rgba(183, 103, 183, 0.8);
@@ -106,7 +106,7 @@ p {
 footer {
   background: #414042;
   color: white;
-  height: 200px;
+  height: 240px;
   margin-top: 3rem;
   padding: 1rem;
   display: grid;
@@ -132,6 +132,15 @@ footer div {
 }
 footer p {
   font-size: 1rem;
+}
+
+footer .products-services {
+  line-height: 25px;
+  font-size: 0.9rem;
+}
+
+footer .products-services a {
+  margin: 10px;
 }
 
 .footer-logo {

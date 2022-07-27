@@ -58,7 +58,7 @@
 .logo {
   cursor: pointer;
   width: 250px;
-  margin: 2rem 3rem;
+  margin: 1.5rem 3rem;
   content: url("../images/logos/echo-white-grey.png");
 }
 

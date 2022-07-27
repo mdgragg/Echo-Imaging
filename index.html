@@ -190,112 +190,6 @@
                 </div>
               </div>
             </li>
-            <!-- <li>
-              <div class="uk-transition-toggle">
-                <img
-                  class="caseStudy-img"
-                  src="https://via.placeholder.com/600x480"
-                  alt=""
-                />
-                <div
-                  class="uk-position-cover uk-overlay-primary uk-overlay-4 uk-flex uk-flex-center uk-flex-middle uk-transition-fade"
-                >
-                  <div class="uk-text-center">
-                    <p class="uk-transition-slide-top">Case Study 4</p>
-                    <a
-                      href="#caseStudy4"
-                      uk-toggle
-                      class="uk-button uk-button-default uk-transition-slide-bottom"
-                    >
-                      More
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div id="caseStudy4" class="uk-flex-top" uk-modal>
-                <div
-                  class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical"
-                >
-                  <button
-                    class="uk-modal-close-default"
-                    type="button"
-                    uk-close
-                  ></button>
-                  <div class="modal-images">
-                    <img src="https://via.placeholder.com/600x480" alt="" />
-                    <img src="https://via.placeholder.com/600x480" alt="" />
-                  </div>
-                  <h3>Case Study 4</h3>
-                  <p>
-                    4 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                  </p>
-                  <button class="uk-button uk-button-primary uk-button-4">
-                    Visit Page?
-                  </button>
-                </div>
-              </div>
-            </li> -->
-            <!-- <li>
-              <div class="uk-transition-toggle">
-                <img
-                  class="caseStudy-img"
-                  src="https://via.placeholder.com/600x480"
-                  alt=""
-                />
-                <div
-                  class="uk-position-cover uk-overlay-primary uk-overlay-5 uk-flex uk-flex-center uk-flex-middle uk-transition-fade"
-                >
-                  <div class="uk-text-center">
-                    <p class="uk-transition-slide-top">Case Study 5</p>
-                    <a
-                      href="#caseStudy"
-                      uk-toggle
-                      class="uk-button uk-button-default uk-transition-slide-bottom"
-                    >
-                      More
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div id="caseStudy" class="uk-flex-top" uk-modal>
-                <div
-                  class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical"
-                >
-                  <button
-                    class="uk-modal-close-default"
-                    type="button"
-                    uk-close
-                  ></button>
-                  <div class="modal-images">
-                    <img src="https://via.placeholder.com/600x480" alt="" />
-                    <img src="https://via.placeholder.com/600x480" alt="" />
-                  </div>
-                  <h3>Case Study 5</h3>
-                  <p>
-                    5 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                  </p>
-                  <button class="uk-button uk-button-primary uk-button-5">
-                    Visit Page?
-                  </button>
-                </div>
-              </div>
-            </li> -->
           </ul>
           <div class="caseStudy-arrows">
             <span
@@ -536,36 +430,13 @@
       </div>
     </div>
 
-    <!--Footer-->
-    <footer>
-      <div>
-        <a href="/">
-          <img
-            src="assets/images/logos/echo-white-blue.png"
-            alt="logo"
-            class="footer-logo" /></a
-        ><br />
-        2645 Wooster Road <br />
-        Rocky River, OH 44116 <br />
-        (440) 356-4720 <br />
-        <a href="mailto:info@echoimg.com">info@echoimg.com</a> <br />
-        <br />
-        <span class="footer-copyright">© Copyright echoimaging 2022</span>
-      </div>
-
-      <div>
-        <p>
-          <span class="footer-sm-title"> Site Map</span><br />
-          <a href="/">Home</a>
-          <br />
-          Products and Services<br />
-          Catalog <br />
-          About Echo<br />
-          Contact Us<br />
-        </p>
-      </div>
-      <div><p class="footer-map-title">Map | Directions</p></div>
-    </footer>
+    <!-- Footer found in footer.html -->
+    <script>
+      $(function () {
+        $("#footer").load("footer.html");
+      });
+    </script>
+    <div id="footer"></div>
 
     <script src="assets/js/script.js"></script>
   </body>

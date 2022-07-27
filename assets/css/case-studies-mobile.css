@@ -4,15 +4,18 @@
   }
 
   .scrolled .RIDGE-navbar {
-    background: rgba(181, 201, 122, 0.8);
+    background: rgba(181, 201, 122, 0.6);
+    backdrop-filter: blur(4px);
   }
 
   .scrolled .valent-navbar {
-    background: rgba(30, 169, 220, 0.8);
+    background: rgba(30, 169, 220, 0.6);
+    backdrop-filter: blur(4px);
   }
 
   .scrolled .TMTP-navbar {
-    background: rgba(255, 90, 37, 0.8);
+    background: rgba(255, 90, 37, 0.6);
+    backdrop-filter: blur(4px);
   }
 
   .scroll-change {
@@ -30,15 +33,18 @@
   }
 
   .scrolled-mobile .RIDGE-navbar {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
   }
 
   .scrolled-mobile .valent-navbar {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
   }
 
   .scrolled-mobile .TMTP-navbar {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
   }
 
   .scrolled-mobile .logo {
@@ -92,27 +98,33 @@
     text-shadow: none;
   }
   .RIDGE-navbar {
-    background: rgba(181, 201, 122, 0.8);
+    background: rgba(181, 201, 122, 0.6);
+    backdrop-filter: blur(4px);
   }
 
   .scrolled .RIDGE-navbar {
-    background: rgba(181, 201, 122, 0.8);
+    background: rgba(181, 201, 122, 0.6);
+    backdrop-filter: blur(4px);
   }
 
   .valent-navbar {
-    background: rgba(30, 169, 220, 0.8);
+    background: rgba(30, 169, 220, 0.6);
+    backdrop-filter: blur(4px);
   }
 
   .scrolled .valent-navbar {
-    background: rgba(30, 169, 220, 0.8);
+    background: rgba(30, 169, 220, 0.6);
+    backdrop-filter: blur(4px);
   }
 
   .TMTP-navbar {
-    background: rgba(255, 90, 37, 0.8);
+    background: rgba(255, 90, 37, 0.6);
+    backdrop-filter: blur(4px);
   }
 
   .scrolled .TMTP-navbar {
-    background: rgba(255, 90, 37, 0.8);
+    background: rgba(255, 90, 37, 0.6);
+    backdrop-filter: blur(4px);
   }
 
   .scroll-change {
@@ -130,15 +142,18 @@
   }
 
   .scrolled-mobile .RIDGE-navbar {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
   }
 
   .scrolled-mobile .valent-navbar {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
   }
 
   .scrolled-mobile .TMTP-navbar {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
   }
 
   .scrolled-mobile .logo {

@@ -4,7 +4,8 @@
   }
 
   .scrolled .navbar {
-    background: rgba(191, 191, 191, 0.8);
+    background: rgba(191, 191, 191, 0.6);
+    backdrop-filter: blur(4px);
   }
 
   .scroll-change {
@@ -22,7 +23,8 @@
   }
 
   .scrolled-mobile .navbar {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
   }
 
   .scrolled-mobile .logo {
@@ -53,7 +55,8 @@
     content: url("../images/logos/echo-white-black.png");
   }
   .navbar {
-    background: rgba(191, 191, 191, 0.8);
+    background: rgba(191, 191, 191, 0.6);
+    backdrop-filter: blur(4px);
   }
   .menu {
     color: #414042;
