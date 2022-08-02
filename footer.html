@@ -34,10 +34,39 @@
         >
       </span>
       <br />
-      Catalog <br />
+      <a target="_blank" href="https://selectedsuppliers.echoimg.com/">
+        Catalog </a
+      ><br />
       About Echo<br />
       Contact Us<br />
     </p>
   </div>
-  <div><p class="footer-map-title">Map | Directions</p></div>
+  <div>
+    <p class="footer-map-title">
+      <a class="mapLink" target="_blank" href="#Map" uk-toggle>Map</a> |
+      <a
+        class="mapLink"
+        target="_blank"
+        href="https://www.google.com/maps/dir/41.4416896,-81.854464/2645+Wooster+Rd,+Rocky+River,+OH+44116/@41.4505952,-81.863388,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x8830ed625cd7a6a3:0xdbd0a8b0c17d3351!2m2!1d-81.8367381!2d41.4695669"
+        >Directions</a
+      >
+    </p>
+
+    <div id="Map" class="uk-flex-top" uk-modal>
+      <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+
+        <iframe
+          width="100%"
+          height="450"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=2645%20Wooster%20Road%20Rocky%20River,%20OH%2044116+(Echo%20Imaging)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ><a href="https://www.gps.ie/sport-gps/">fitness tracker</a></iframe
+        >
+      </div>
+    </div>
+  </div>
 </footer>

@@ -248,16 +248,19 @@
 }
 
 .orange-box img {
-  margin-top: 70px;
+  margin-top: 10px;
 }
 
 .orange-box p {
+  margin-top: 5px;
   font-size: 1.5rem;
   color: var(--TMTP-lightorange);
-  line-height: 2rem;
+  line-height: 1.5rem;
   font-family: "DIN-Mittelschrift";
   word-spacing: -3px;
 }
 .orange-box p span {
+  line-height: 1.7rem;
+  font-size: 1.8rem;
   color: white;
 }

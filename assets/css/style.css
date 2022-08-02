@@ -115,6 +115,12 @@ footer {
 footer a {
   color: white;
 }
+footer a.mapLink {
+  color: var(--echo-purple);
+}
+footer a.mapLink:hover {
+  color: var(--echo-purple);
+}
 footer a:hover {
   color: white;
   opacity: 0.6;

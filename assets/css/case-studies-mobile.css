@@ -1,3 +1,17 @@
+@media all and (min-width: 2200px) {
+  .RIDGE-header header {
+    min-height: 750px;
+  }
+
+  .valent-header header {
+    min-height: 700px;
+  }
+
+  .TMTP-header header {
+    min-height: 800px;
+  }
+}
+
 @media all and (max-width: 2200px) {
   header {
     padding-bottom: 65px;
@@ -251,7 +265,12 @@
 
   .orange-box p {
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
+  }
+
+  .orange-box p span {
+    line-height: 1.7rem;
+    font-size: 1.8rem;
   }
 
   .TMTP-img {
@@ -437,6 +456,12 @@
     text-align: center;
     font-size: 1.3rem;
     line-height: 1.8rem;
+  }
+
+  .orange-box p span {
+    line-height: 1.7rem;
+    font-size: 1.5rem;
+    color: white;
   }
 
   footer {
