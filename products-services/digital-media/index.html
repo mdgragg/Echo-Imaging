@@ -116,20 +116,19 @@
           ></button>
 
           <h3>Contact Form</h3>
-          <form action="../../mail.php" method="post">
-            <label for="name">Your Name</label>
-            <input type="text" name="name" placeholder="Your name.." />
-            <label for="lname">Email</label>
-            <input type="email" name="email" placeholder="Your email.." />
+          <form method="post" action="../../contact.php">
+            <label>Name:</label>
+            <input name="sender" />
 
-            <label for="message">Message</label>
-            <textarea
-              name="message"
-              placeholder="Write something.."
-              style="height: 200px"
-            ></textarea>
-            <input type="submit" value="Submit" />
+            <label>Email address:</label>
+            <input name="senderEmail" />
+
+            <label>Message:</label>
+            <textarea rows="5" cols="20" name="message"></textarea>
+
+            <input type="submit" name="submit" />
           </form>
+
           <!-- <button type="submit" value="Submit" class="uk-button button-1">
               Submit
             </button> -->
@@ -142,46 +141,6 @@
       $(function () {
         $("#footer").load("../../footer.html");
       });
-
-      const constraints = {
-        name: {
-          presence: { allowEmpty: false },
-        },
-        email: {
-          presence: { allowEmpty: false },
-          email: true,
-        },
-        message: {
-          presence: { allowEmpty: false },
-        },
-      };
-
-      const form = document.getElementById("contact-form");
-
-      form.addEventListener(
-        "submit",
-        function (event) {
-          const formValues = {
-            name: form.elements.name.value,
-            email: form.elements.email.value,
-            message: form.elements.message.value,
-          };
-
-          const errors = validate(formValues, constraints);
-
-          if (errors) {
-            event.preventDefault();
-            const errorMessage = Object.values(errors)
-              .map(function (fieldValues) {
-                return fieldValues.join(", ");
-              })
-              .join("\n");
-
-            alert(errorMessage);
-          }
-        },
-        false
-      );
     </script>
 
     <div id="footer"></div>
