@@ -43,6 +43,13 @@
     font-size: 3.5rem;
   }
 
+  header .uk-button {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    position: initial;
+  }
+
   .digital-header .header-text h1 {
     margin-top: 205px;
   }
@@ -103,6 +110,13 @@
 
   .main-header header {
     min-height: 300px;
+  }
+
+  header .uk-button {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    position: initial;
   }
 
   .USBs-header .header-text h1 {

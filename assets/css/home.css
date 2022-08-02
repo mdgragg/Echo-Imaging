@@ -8,24 +8,24 @@ header {
 }
 
 .header-text {
-  max-width: 650px;
+  max-width: 550px;
   margin: 9rem 3rem 2rem 3rem;
 }
 
 .header-text h1 {
   font-family: "DIN-Mittelschrift";
   word-spacing: -9px;
-  line-height: 3.5rem;
+  line-height: 3rem;
   color: var(--echo-orange);
-  font-size: 4.5rem;
+  font-size: 4rem;
 }
 
 .header-text p {
-  margin-top: -10px;
   font-family: "DIN-Neuzeit-Grotesk-Light";
   color: white;
   font-size: 1.5rem;
   padding-bottom: 30px;
+  width: 500px;
 }
 
 .header-text span {

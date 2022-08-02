@@ -48,7 +48,7 @@ p {
   position: fixed;
   width: 100%;
   border-top: 10px solid var(--echo-yellow);
-  z-index: 9999;
+  z-index: 999;
 }
 
 .menu {
