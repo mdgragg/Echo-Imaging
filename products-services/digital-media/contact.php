@@ -1,4 +1,7 @@
 <?php
+
+if(!empty($_POST['antispam'])) die();
+
 if(!isset($_POST['submit']))
 {
 	//This page should not be accessed directly. Need to submit the form.
@@ -20,19 +23,43 @@ if(IsInjected($visitor_email))
     echo "Bad email value!";
     exit;
 }
-
-$email_from = 'graggdmichael@gmail.com';//<== update the email address
-$email_subject = "New Form submission";
-$email_body = "You have received a new message from the user $name.\n".
-    "Here is the message:\n $message".
-    
 $to = "graggdmichael@gmail.com";//<== update the email address
-$headers = "From: $email_from \r\n";
+$email_from = 'noreply@echoimg.com';//<== update the email address
+$email_subject = "New Form submission";
+$email_body = "You have received a new message from: $name.\n". 
+    "Here is their message:\n $message \r\n".
+
+
 $headers .= "Reply-To: $visitor_email \r\n";
+$headers = "From: $email_from \r\n";
 //Send the email!
+
 mail($to,$email_subject,$email_body,$headers);
-//done. redirect to thank-you page.
-header('Location: thank-you.html');
+
+echo "<script>alert('Success! Your message has been sent.'); window.location.href='index.html';</script>";
+
+
+// $referer = $_SERVER['HTTP_REFERER'];
+// header("Location: $referer");
+// exit('Alert on exit');
+
+
+// echo '<script>';
+// echo 'alert("Page will redirect when you close this box!")';
+// echo '</script>';
+
+
+
+// header('location: index.html');
+// exit;
+// echo '<script> alert("Success! Your message has been sent.") </script>';
+
+
+// $alert("Hello World");
+
+// $referer = $_SERVER['HTTP_REFERER'];
+// header("Location: $referer");
+
 
 
 // Function to validate against any email injection attempts

@@ -103,6 +103,57 @@ p {
   margin-top: -15px;
 }
 
+#Map .uk-modal-body {
+  width: 60%;
+  max-width: 800px;
+}
+
+.uk-modal-body h3 {
+  font-family: "DIN-Mittelschrift";
+  word-spacing: -2px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 2.2rem;
+}
+
+.uk-modal-body p {
+  font-family: "DIN-Neuzeit-Grotesk-Light";
+  margin-top: 0px;
+}
+
+.antispam {
+  display: none;
+}
+
+form .button-1 {
+  width: 200px;
+  min-height: 50px;
+  padding: 5px;
+  margin: 3px;
+  font-family: "DIN-Alternate-Bold";
+  font-size: 1rem;
+  line-height: normal;
+  text-transform: none;
+  color: white;
+}
+
+form .button-1:hover {
+  opacity: 0.8;
+}
+
+.USBs form .button-1 {
+  background-color: var(--echo-green);
+}
+.digital form .button-1 {
+  background-color: var(--echo-purple);
+}
+.branded form .button-1 {
+  background-color: var(--echo-orange);
+}
+.kitting form .button-1 {
+  background-color: var(--echo-blue);
+}
+
 footer {
   background: #414042;
   color: white;

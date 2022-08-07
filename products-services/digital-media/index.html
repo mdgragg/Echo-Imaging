@@ -117,7 +117,7 @@
         </button></a
       >
 
-      <div id="Form" class="uk-flex-top" uk-modal>
+      <div id="Form" class="uk-flex-top digital" uk-modal>
         <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
           <button
             class="uk-modal-close-default"
@@ -125,26 +125,54 @@
             uk-close
           ></button>
 
-          <h3>Contact Form</h3>
-          <form method="post" name="myemailform" action="../../contact.php">
-            <p>
-              <label for="name">Enter Name: </label><br />
-              <input type="text" name="name" />
-            </p>
-            <p>
-              <label for="email">Enter Email Address:</label><br />
-              <input type="text" name="email" />
-            </p>
-            <p>
-              <label for="message">Enter Message:</label> <br />
-              <textarea name="message"></textarea>
-            </p>
-            <input type="submit" name="submit" value="submit" />
-          </form>
+          <h3>Contact Us!</h3>
 
-          <!-- <button type="submit" value="Submit" class="uk-button button-1">
-              Submit
-            </button> -->
+          <form method="post" name="myemailform" action="contact.php">
+            <fieldset class="uk-fieldset">
+              <div class="uk-margin">
+                <input
+                  class="uk-input"
+                  type="text"
+                  name="name"
+                  placeholder="Enter Name"
+                />
+              </div>
+              <div class="uk-margin">
+                <input
+                  class="uk-input"
+                  type="text"
+                  name="email"
+                  placeholder="email@website.com"
+                />
+              </div>
+
+              <div class="uk-margin">
+                <textarea
+                  class="uk-textarea"
+                  rows="5"
+                  name="message"
+                  placeholder="Enter Message"
+                ></textarea>
+              </div>
+              <div class="antispam">
+                <input
+                 type="text"
+                 name="antispam"
+                placeholder="Leave this empty"
+                ></input>
+              </div>
+             
+
+              <button
+                type="submit"
+                name="submit"
+                value="submit"
+                class="uk-button button-1"
+              >
+                Submit
+              </button>
+            </fieldset>
+          </form>
         </div>
       </div>
     </div>

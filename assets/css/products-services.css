@@ -151,8 +151,10 @@ header .uk-button {
 
 .PS-body .uk-button:hover {
   opacity: 0.8;
+  text-decoration: none;
 }
 
 header .uk-button:hover {
   opacity: 0.8;
+  text-decoration: none;
 }

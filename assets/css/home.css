@@ -236,37 +236,6 @@ p {
   display: none;
 }
 
-.uk-modal-body {
-  width: 60%;
-  max-width: 800px;
-}
-
-.modal-images img {
-  display: inline-block;
-  width: 48%;
-  margin: 0rem 0.7rem 0rem 0rem;
-}
-
-.modal-image img {
-  width: 100%;
-  object-fit: cover;
-  margin: 0rem 0rem;
-  max-height: 250px;
-}
-
-.uk-modal-body h3 {
-  font-family: "DIN-Mittelschrift";
-  word-spacing: -2px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-size: 2.2rem;
-}
-
-.uk-modal-body p {
-  font-family: "DIN-Neuzeit-Grotesk-Light";
-  margin-top: 0px;
-}
-
 .uk-button-1 {
   background: var(--echo-blue);
 }
