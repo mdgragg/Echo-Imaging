@@ -9,7 +9,8 @@
     2645 Wooster Road <br />
     Rocky River, OH 44116 <br />
     (440) 356-4720 <br />
-    <a href="mailto:info@echoimg.com">info@echoimg.com</a> <br />
+    <a class="mail" href="mailto:info@badmail.echoimg.com">info@echoimg.com</a>
+    <br />
     <br />
     <span class="footer-copyright">© Copyright echoimaging 2022</span>
   </div>
@@ -37,8 +38,10 @@
       <a target="_blank" href="https://selectedsuppliers.echoimg.com/">
         Catalog </a
       ><br />
-      About Echo<br />
-      Contact Us<br />
+      <a href="/about-echo/index.html">About Echo</a>
+      <br />
+      <a href="/contact-us/index.html"> Contact Us</a>
+      <br />
     </p>
   </div>
   <div>
@@ -69,3 +72,10 @@
     </div>
   </div>
 </footer>
+
+<script>
+  $("a.mail").on("click", function () {
+    var href = $(this).attr("href");
+    $(this).attr("href", href.replace("badmail.", ""));
+  });
+</script>

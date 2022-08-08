@@ -23,7 +23,7 @@ if(IsInjected($visitor_email))
     echo "Bad email value!";
     exit;
 }
-$to = "graggdmichael@gmail.com";//<== update the email address
+$to = "info@echoimg.com";//<== update the email address
 $email_from = 'noreply@echoimg.com';//<== update the email address
 $email_subject = "New Form submission";
 $email_body = "You have received a new message from: $name.\n \n".

@@ -1,10 +1,10 @@
 @media all and (min-width: 2200px) {
   .RIDGE-header header {
-    min-height: 750px;
+    min-height: 850px;
   }
 
   .valent-header header {
-    min-height: 700px;
+    min-height: 750px;
   }
 
   .TMTP-header header {
@@ -278,6 +278,15 @@
     max-width: 350px;
     justify-self: center;
   }
+
+  footer {
+    display: grid;
+    grid-template-columns: 48% 47% 5%;
+  }
+
+  footer .footer-map-title {
+    margin-left: -125px;
+  }
 }
 
 @media all and (max-width: 640px) {
@@ -465,12 +474,10 @@
   }
 
   footer {
-    background: #414042;
-    color: white;
     height: 100%;
     text-align: center;
     margin-top: 3rem;
-    padding: 1rem;
+    padding: 1rem 1rem 3rem 1rem;
     display: grid;
     grid-template-columns: 100%;
   }
@@ -484,5 +491,8 @@
     margin-bottom: 0.5rem;
     width: 200px;
     clear: both;
+  }
+  footer .footer-map-title {
+    margin: auto;
   }
 }

@@ -154,6 +154,94 @@ form .button-1:hover {
   background-color: var(--echo-blue);
 }
 
+/* Contact Page */
+
+.contact-navbar {
+  border-top: 10px solid #414042;
+}
+
+.contact-header .logo {
+  cursor: pointer;
+  width: 250px;
+  margin: 1.5rem 3rem;
+  content: url("../images/logos/echo-white-grey.png");
+}
+
+.contact-header header {
+  background-color: #101417;
+  background-image: url("../images/contact-page-OLLIE.png"),
+    linear-gradient(to right, #12171a, #0d1114);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  margin-bottom: -3rem;
+}
+
+.contact-container {
+  max-width: 1500px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 55% 45%;
+}
+
+.contact-left {
+  position: relative;
+}
+.office-dog {
+  font-family: "DIN-Alternate-Bold";
+  position: absolute;
+  top: 450px;
+  left: 40px;
+  text-align: right;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+.office-dog span {
+  font-family: "DIN-Neuzeit-Grotesk-Light";
+  font-size: 0.8rem;
+}
+.contact-right {
+  margin: auto;
+  margin-top: 15rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.contact-right h1 {
+  color: white;
+  margin-bottom: 3rem;
+  font-family: "DIN-Mittelschrift";
+  font-size: 4.5rem;
+}
+
+.contact-right p {
+  font-family: "DIN-Neuzeit-Grotesk-Light";
+  font-size: 1.3rem;
+  line-height: 2.4rem;
+  color: #6d6e71;
+  max-width: 370px;
+  margin: auto;
+  align-items: center;
+}
+.contact-right .contact-question {
+  max-width: 500px;
+  margin: auto;
+  align-items: center;
+}
+.contact-right .contact-links {
+  margin-top: 3rem;
+}
+
+.contact-right p span a {
+  color: white;
+}
+
+.mobile-only {
+  display: none;
+}
+
 footer {
   background: #414042;
   color: white;

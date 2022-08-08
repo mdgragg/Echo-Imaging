@@ -1,4 +1,4 @@
-@media all and (max-width: 2200px) {
+@media all and (max-width: 2300px) {
   header {
     padding-bottom: 65px;
   }
@@ -15,8 +15,12 @@
     padding-bottom: 0px;
   }
 
-  .scrolled .logo {
+  .scrolled .home-navbar .logo {
     content: url("../images/logos/echo-white-blue.png");
+  }
+
+  .scrolled-mobile .contact-navbar .logo {
+    content: url("../images/logos/echo-white-grey.png");
   }
 
   .scrolled .menu {
@@ -29,8 +33,12 @@
     -webkit-backdrop-filter: blur(4px);
   }
 
-  .scrolled-mobile .logo {
+  .scrolled-mobile .home-navbar .logo {
     content: url("../images/logos/echo-black-blue.png");
+  }
+
+  .scrolled-mobile .contact-navbar .logo {
+    content: url("../images/logos/echo-white-grey.png");
   }
 
   .scrolled-mobile .menu {
@@ -56,6 +64,18 @@
   }
   .caseStudy-left h2 {
     font-size: 4rem;
+  }
+}
+
+@media all and (max-width: 1600px) {
+  .office-dog {
+    top: 300px;
+    right: 500px;
+  }
+
+  .contact-right {
+    margin: auto;
+    margin-top: 4rem;
   }
 }
 
@@ -104,8 +124,12 @@
     padding-bottom: 0px;
   }
 
-  .scrolled .logo {
-    content: url("../images/logos/echo-white-blue.png");
+  .scrolled-mobile .home-navbar .logo {
+    content: url("../images/logos/echo-black-blue.png");
+  }
+
+  .scrolled-mobile .contact-navbar .logo {
+    content: url("../images/logos/echo-white-grey.png");
   }
 
   .scrolled .menu {
@@ -118,8 +142,12 @@
     -webkit-backdrop-filter: blur(4px);
   }
 
-  .scrolled-mobile .logo {
+  .scrolled-mobile .home-navbar .logo {
     content: url("../images/logos/echo-black-blue.png");
+  }
+
+  .scrolled-mobile .contact-navbar .logo {
+    content: url("../images/logos/echo-white-grey.png");
   }
 
   .scrolled-mobile .menu {
@@ -180,11 +208,70 @@
     max-width: 400px;
     font-size: 0.9rem;
   }
+
+  .contact-header header {
+    background-color: #101417;
+    background-image: linear-gradient(to right, #12171a, #0d1114);
+  }
+
+  .contact-container {
+    grid-template-columns: 100%;
+    margin-bottom: -45px;
+  }
+  .contact-left {
+    position: absolute;
+    bottom: 500px;
+    width: 100%;
+  }
+
+  .contact-right {
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .contact-right h1 {
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+  }
+
+  .contact-right .contact-links {
+    margin-top: 2rem;
+  }
+
+  .contact-right p {
+    max-width: 900px;
+    width: 85%;
+  }
+  .office-dog {
+    text-align: center;
+  }
+  .mobile-only {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 48% 47% 5%;
+  }
+
+  footer .footer-map-title {
+    margin-left: -125px;
+  }
 }
 
 @media all and (max-width: 640px) {
   .uk-offcanvas-bar {
     padding-top: 10rem;
+  }
+
+  .contact-header .logo {
+    width: 200px;
+    margin: 1rem 2rem;
   }
 
   .logo {
@@ -220,7 +307,7 @@
 
   header {
     background-position: top 55% left 100%;
-    min-height: 350px;
+    min-height: 370px;
     padding-bottom: 25px;
     height: 100%;
     width: 100%;
@@ -407,13 +494,47 @@
     padding: 0rem 2.5rem;
   }
 
+  .contact-header header {
+    background-color: #101417;
+    background-image: linear-gradient(to right, #12171a, #0d1114);
+  }
+
+  .contact-container {
+    grid-template-columns: 100%;
+    margin-bottom: -25px;
+    position: relative;
+  }
+  .contact-left {
+    position: absolute;
+    bottom: 350px;
+    z-index: 1;
+    width: 100%;
+  }
+  .office-dog {
+    right: 100px;
+    text-align: left;
+  }
+
+  .contact-right {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .contact-right h1 {
+    font-size: 3.2rem;
+  }
+  .contact-right p {
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+  }
+  .contact-right .contact-links {
+    margin-bottom: 2rem;
+  }
+
   footer {
-    background: #414042;
-    color: white;
     height: 100%;
     text-align: center;
     margin-top: 3rem;
-    padding: 1rem;
+    padding: 1rem 1rem 3rem 1rem;
     display: grid;
     grid-template-columns: 100%;
   }
@@ -427,5 +548,9 @@
     margin-bottom: 0.5rem;
     width: 200px;
     clear: both;
+  }
+
+  footer .footer-map-title {
+    margin: auto;
   }
 }

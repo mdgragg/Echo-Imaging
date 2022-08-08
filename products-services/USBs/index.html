@@ -78,8 +78,8 @@
                       Catalog
                     </a>
                   </li>
-                  <li><a href="#">About Echo</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="../../about-echo/index.html">About Echo</a></li>
+                  <li><a href="../../contact-us/index.html">Contact Us</a></li>
                 </ul>
               </div>
             </div>
@@ -108,10 +108,71 @@
         style, memory size, and distribution for your project.
       </p>
 
-      <button class="uk-button button-2">
-        Want more info?<br />
-        Let’s talk
-      </button>
+      <a href="#Form" uk-toggle
+        ><button class="uk-button button-2">
+          Want more info?<br />
+          Let’s talk
+        </button></a
+      >
+
+      <div id="Form" class="uk-flex-top USBs" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+          <button
+            class="uk-modal-close-default"
+            type="button"
+            uk-close
+          ></button>
+
+          <h3>Contact Us!</h3>
+
+          <form method="post" name="myemailform" action="contact.php">
+            <fieldset class="uk-fieldset">
+              <div class="uk-margin">
+                <input
+                  class="uk-input"
+                  type="text"
+                  name="name"
+                  placeholder="Enter Name"
+                />
+              </div>
+              <div class="uk-margin">
+                <input
+                  class="uk-input"
+                  type="text"
+                  name="email"
+                  placeholder="email@website.com"
+                />
+              </div>
+
+              <div class="uk-margin">
+                <textarea
+                  class="uk-textarea"
+                  rows="5"
+                  name="message"
+                  placeholder="Enter Message"
+                ></textarea>
+              </div>
+              <div class="antispam">
+                <input
+                 type="text"
+                 name="antispam"
+                 placeholder="Leave this empty"
+                ></input>
+              </div>
+             
+
+              <button
+                type="submit"
+                name="submit"
+                value="submit"
+                class="uk-button button-1"
+              >
+                Submit
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
     </div>
 
     <!-- Footer found in footer.html -->
@@ -119,6 +180,15 @@
       $(function () {
         $("#footer").load("../../footer.html");
       });
+
+      var frmvalidator = new Validator("myemailform");
+      frmvalidator.addValidation("name", "req", "Please provide your name");
+      frmvalidator.addValidation("email", "req", "Please provide your email");
+      frmvalidator.addValidation(
+        "email",
+        "email",
+        "Please enter a valid email address"
+      );
     </script>
     <div id="footer"></div>
 
