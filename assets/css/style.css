@@ -20,15 +20,24 @@ body {
 
 @font-face {
   font-family: "DIN-Mittelschrift";
-  src: url("../fonts/DIN-Mittelschrift.ttf");
+  font-weight: normal;
+  src: url("../fonts/DIN-Mittelschrift.ttf") format("truetype");
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 @font-face {
   font-family: "DIN-Neuzeit-Grotesk-Light";
-  src: url("../fonts/DIN-Neuzeit-Grotesk-Light.ttf");
+  font-weight: normal;
+  src: url("../fonts/DIN-Neuzeit-Grotesk-Light.ttf") format("truetype");
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 @font-face {
   font-family: "DIN-Alternate-Bold";
-  src: url("../fonts/DIN-Alternate-Bold.ttf");
+  font-weight: normal;
+  src: url("../fonts/DIN-Alternate-Bold.ttf") format("truetype");
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 h2 {
@@ -139,6 +148,7 @@ form .button-1 {
 
 form .button-1:hover {
   opacity: 0.8;
+  text-decoration: none;
 }
 
 .USBs form .button-1 {
@@ -242,6 +252,86 @@ form .button-1:hover {
   display: none;
 }
 
+/* About Page */
+
+.about-navbar {
+  border-top: 10px solid #414042;
+}
+
+.about-header .logo {
+  cursor: pointer;
+  width: 250px;
+  margin: 1.5rem 3rem;
+  content: url("../images/logos/echo-white-grey.png");
+}
+
+.about-header header {
+  background-color: #58595b;
+  height: 100%;
+  margin-bottom: -3rem;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 40% 55%;
+  gap: 3%;
+}
+
+.about-left h1 {
+  color: white;
+  margin-bottom: 1rem;
+  font-family: "DIN-Mittelschrift";
+  font-size: 4.5rem;
+  text-align: center;
+}
+.about-left p {
+  font-family: "DIN-Neuzeit-Grotesk-Light";
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: #a7a9ac;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.about-right {
+  margin: auto;
+  text-align: left;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3981967787114846) 0%,
+    rgba(88, 89, 91, 1) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  padding: 45px 10px 10px 10px;
+  width: 100%;
+}
+
+.timeline-arrow {
+  width: 115px;
+  margin-top: -25px;
+}
+
+.about-right ul {
+  list-style-type: circle;
+  list-style-position: outside;
+}
+
+.about-right li {
+  font-family: "DIN-Neuzeit-Grotesk-Light";
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: white;
+  margin-left: -33px;
+  max-width: 600px;
+  width: 100%;
+  top: 18px;
+  position: relative;
+}
+
 footer {
   background: #414042;
   color: white;
@@ -251,6 +341,7 @@ footer {
   display: grid;
   grid-template-columns: 33% 33% 33%;
 }
+
 footer a {
   color: white;
 }

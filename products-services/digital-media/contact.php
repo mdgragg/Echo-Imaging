@@ -8,8 +8,14 @@ if(!isset($_POST['submit']))
 	echo "error; you need to submit the form!";
 }
 $name = $_POST['name'];
+$company = $_POST['company'];
+$phone = $_POST['phone'];
 $visitor_email = $_POST['email'];
-$message = $_POST['message'];
+$description = $_POST['description'];
+
+$goals = $_POST['goals'];
+$timeline = $_POST['timeline'];
+$art = $_POST['art'];
 
 //Validate first
 if(empty($name)||empty($visitor_email)) 
@@ -26,41 +32,21 @@ if(IsInjected($visitor_email))
 $to = "graggdmichael@gmail.com";//<== update the email address
 $email_from = 'noreply@echoimg.com';//<== update the email address
 $email_subject = "New Form submission";
-$email_body = "You have received a new message from: $name.\n \n".
-    "Here is their message:\n $message \r\n \n".
 
+$email_body = "You have received a new message from:\n $name, $company $phone \n\n".
+
+"<b>Here is their Project Description:</b>\n $description \n\n". 
+"More Info (if filled out): $goals \n".
+"Project Timeline: $timeline \n". 
+"Branded/Art Available: $art  \n \n".
 
 $headers .= "Reply-To: $visitor_email \r\n";
-$headers = "From: $email_from \r\n";
-//Send the email!
+$headers = "From: $email_from \r\n \n";
 
+//Send the email!
 mail($to,$email_subject,$email_body,$headers);
 
 echo "<script>alert('Success! Your message has been sent.'); window.location.href='index.html';</script>";
-
-
-// $referer = $_SERVER['HTTP_REFERER'];
-// header("Location: $referer");
-// exit('Alert on exit');
-
-
-// echo '<script>';
-// echo 'alert("Page will redirect when you close this box!")';
-// echo '</script>';
-
-
-
-// header('location: index.html');
-// exit;
-// echo '<script> alert("Success! Your message has been sent.") </script>';
-
-
-// $alert("Hello World");
-
-// $referer = $_SERVER['HTTP_REFERER'];
-// header("Location: $referer");
-
-
 
 // Function to validate against any email injection attempts
 function IsInjected($str)

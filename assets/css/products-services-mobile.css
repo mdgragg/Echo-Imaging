@@ -158,6 +158,10 @@
     line-height: 2.2rem;
   }
 
+  #Map .uk-modal-body {
+    width: 100%;
+  }
+
   footer {
     height: 100%;
     text-align: center;

@@ -132,6 +132,9 @@ header .uk-button {
   text-transform: none;
 }
 
+.button-1 a:hover {
+  text-decoration: none;
+}
 .USBs .button-1 {
   background-color: var(--echo-green);
 }
@@ -151,6 +154,34 @@ header .uk-button {
 
 .PS-body .uk-button:hover {
   opacity: 0.8;
+  text-decoration: none;
+}
+
+.accordion-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 15px 0px 0px 0px;
+}
+
+.phone-email {
+  font-size: 1rem;
+}
+
+.USBs .phone-email a {
+  color: var(--echo-green);
+}
+.digital .phone-email a {
+  color: var(--echo-purple);
+}
+.branded .phone-email a {
+  color: var(--echo-orange);
+}
+.kitting .phone-email a {
+  color: var(--echo-blue);
+}
+
+.phone-email a:hover {
+  opacity: 0.6;
   text-decoration: none;
 }
 

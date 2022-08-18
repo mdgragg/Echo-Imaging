@@ -254,6 +254,53 @@
     margin: auto;
   }
 
+  .about-container {
+    margin: auto;
+    margin-top: 2rem;
+    grid-template-columns: 100%;
+    gap: 1rem;
+  }
+
+  .hide-break {
+    display: none;
+  }
+
+  .about-left h1 {
+    font-size: 3.5rem;
+  }
+
+  .about-left {
+    max-width: 900px;
+    width: 85%;
+    margin: auto;
+  }
+
+  .about-right table tr td img {
+    max-width: 115px;
+    margin-top: -25px;
+  }
+
+  .about-right {
+    width: 100%;
+  }
+
+  .about-right table {
+    max-width: 800px;
+    width: 85%;
+    margin: auto;
+  }
+
+  .about-right li {
+    margin-left: -35px;
+    max-width: none;
+    width: 100%;
+    top: 20px;
+  }
+
+  .about-right .longer-text {
+    top: 30px;
+  }
+
   footer {
     display: grid;
     grid-template-columns: 48% 47% 5%;
@@ -270,6 +317,11 @@
   }
 
   .contact-header .logo {
+    width: 200px;
+    margin: 1rem 2rem;
+  }
+
+  .about-header .logo {
     width: 200px;
     margin: 1rem 2rem;
   }
@@ -528,6 +580,53 @@
   }
   .contact-right .contact-links {
     margin-bottom: 2rem;
+  }
+
+  .about-container {
+    margin: auto;
+    margin-top: 2rem;
+    grid-template-columns: 100%;
+    gap: 1rem;
+  }
+
+  .hide-break {
+    display: none;
+  }
+
+  .about-left h1 {
+    font-size: 3.2rem;
+  }
+
+  .about-left p {
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+  }
+
+  .about-right table tr td img {
+    max-width: 90px;
+    margin-top: -15px;
+    vertical-align: top;
+  }
+
+  .about-right {
+    width: 90%;
+  }
+
+  .about-right table {
+    max-width: 800px;
+    width: 85%;
+    margin: auto;
+  }
+
+  .about-right li {
+    margin-left: -25px;
+    max-width: none;
+    width: 100%;
+    top: 20px;
+  }
+
+  #Map .uk-modal-body {
+    width: 100%;
   }
 
   footer {

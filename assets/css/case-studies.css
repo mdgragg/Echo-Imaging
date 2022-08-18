@@ -253,14 +253,14 @@
 
 .orange-box p {
   margin-top: 5px;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: var(--TMTP-lightorange);
-  line-height: 1.5rem;
+  line-height: 1.4rem;
   font-family: "DIN-Mittelschrift";
   word-spacing: -3px;
 }
 .orange-box p span {
-  line-height: 1.7rem;
+  line-height: 1.6rem;
   font-size: 1.8rem;
   color: white;
 }

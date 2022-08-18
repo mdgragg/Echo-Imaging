@@ -473,6 +473,10 @@
     color: white;
   }
 
+  #Map .uk-modal-body {
+    width: 100%;
+  }
+
   footer {
     height: 100%;
     text-align: center;

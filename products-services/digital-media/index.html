@@ -127,34 +127,43 @@
 
           <h3>Contact Us!</h3>
 
-          <form method="post" name="myemailform" action="contact.php">
-            <fieldset class="uk-fieldset">
-              <div class="uk-margin">
-                <input
-                  class="uk-input"
-                  type="text"
-                  name="name"
-                  placeholder="Enter Name"
-                />
-              </div>
-              <div class="uk-margin">
-                <input
-                  class="uk-input"
-                  type="text"
-                  name="email"
-                  placeholder="email@website.com"
-                />
-              </div>
+          <form method="post" name="myemailform" action="contact.php" uk-grid class="uk-grid-small">
+              <div class="uk-width-1-2@s">
+                <input class="uk-input"
+                type="text"
+                name="name"
+                placeholder="Enter Name*">
+            </div>
+            <div class="uk-width-1-2@s">
+                <input class="uk-input"
+                type="text"
+                name="company" placeholder="Your Company Name">
+            </div>
 
-              <div class="uk-margin">
-                <textarea
-                  class="uk-textarea"
-                  rows="5"
-                  name="message"
-                  placeholder="Enter Message"
-                ></textarea>
-              </div>
-              <div class="antispam">
+
+            <div class="uk-width-1-2@s">
+              <input class="uk-input"
+              type="text"
+              name="email"
+              placeholder="Your Email*">
+          </div>
+          <div class="uk-width-1-2@s">
+              <input class="uk-input"
+              type="text"
+              name="phone" placeholder="Your phone">
+          </div>
+
+          <div class="uk-width-1-1">
+            <textarea
+              class="uk-textarea"
+              rows="4"
+              name="description"
+              placeholder="Enter Project Description"
+            ></textarea>
+          </div>
+         
+            
+              <div class="uk-width-1-1 antispam">
                 <input
                  type="text"
                  name="antispam"
@@ -162,6 +171,42 @@
                 ></input>
               </div>
              
+              <ul uk-accordion="multiple: true">
+           
+                <li>
+                    <a class="uk-accordion-title accordion-title" href="#">Click Here to add more info</a>
+              
+                    <div class="uk-accordion-content uk-grid uk-grid-small" uk-grid >
+                        
+                      <div class="uk-width-1-1">
+                        <textarea
+                          class="uk-textarea"
+                          rows="3"
+                          name="goals"
+                          placeholder="What are the objectives/goals of this project? or any additional info"
+                        ></textarea>
+                      </div>
+                      <br><br>
+
+                      <div class="uk-width-1-2@s">
+                        <input class="uk-input"
+                        type="text"
+                        name="timeline" placeholder="Your Project Timeline">
+                    </div>
+
+                    <div class="uk-width-1-2@s">
+                      <input class="uk-input"
+                      type="text"
+                      name="art" placeholder="Branded/Art Available?">
+                  </div>
+                          </p>
+                    </div>
+                </li>
+           
+              <p class="phone-email">Or feel free to call us at <a href="tel:4403564720">440-356-4720</a>, or email <a class="mail" href="mailto:barbara@badmail.echoimg.com"
+                >barbara@echoimg.com</a
+              ></p>
+            </ul>
 
               <button
                 type="submit"
@@ -171,7 +216,6 @@
               >
                 Submit
               </button>
-            </fieldset>
           </form>
         </div>
       </div>
@@ -191,6 +235,12 @@
         "email",
         "Please enter a valid email address"
       );
+
+      $("a.mail").on("click", function () {
+        var href = $(this).attr("href");
+        $(this).attr("href", href.replace("badmail.", ""));
+      });
+
     </script>
 
     <div id="footer"></div>
