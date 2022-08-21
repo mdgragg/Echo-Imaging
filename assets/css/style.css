@@ -310,9 +310,23 @@ form .button-1:hover {
   width: 100%;
 }
 
-.timeline-arrow {
+.about-right .timeline-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  position: relative;
+}
+
+.about-right .timeline-container .timeline-arrow {
   width: 115px;
-  margin-top: -25px;
+  margin-top: -23px;
+  top: 0px;
+}
+
+.about-right .timeline-container ul {
+  position: absolute;
+  left: 85px;
+  top: 9px;
+  max-width: 520px;
 }
 
 .about-right ul {
@@ -325,11 +339,11 @@ form .button-1:hover {
   font-size: 0.8rem;
   line-height: 1rem;
   color: white;
-  margin-left: -33px;
-  max-width: 600px;
-  width: 100%;
-  top: 18px;
+}
+
+.about-right li span {
   position: relative;
+  left: -6px;
 }
 
 footer {

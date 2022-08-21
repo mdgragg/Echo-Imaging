@@ -275,30 +275,22 @@
     margin: auto;
   }
 
-  .about-right table tr td img {
-    max-width: 115px;
-    margin-top: -25px;
-  }
-
   .about-right {
-    width: 100%;
+    width: 96%;
   }
 
-  .about-right table {
+  .about-right .timeline-container {
     max-width: 800px;
     width: 85%;
     margin: auto;
   }
 
-  .about-right li {
-    margin-left: -35px;
-    max-width: none;
-    width: 100%;
-    top: 20px;
-  }
-
-  .about-right .longer-text {
-    top: 30px;
+  .about-right .timeline-container ul {
+    position: absolute;
+    left: 85px;
+    top: 9px;
+    width: 80%;
+    max-width: 520px;
   }
 
   footer {
@@ -602,27 +594,36 @@
     line-height: 2.2rem;
   }
 
-  .about-right table tr td img {
-    max-width: 90px;
-    margin-top: -15px;
-    vertical-align: top;
-  }
-
   .about-right {
-    width: 90%;
+    width: 94%;
   }
 
-  .about-right table {
-    max-width: 800px;
-    width: 85%;
+  .about-right .timeline-container {
+    display: grid;
+    grid-template-columns: 100%;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .about-right .timeline-container .timeline-arrow {
+    width: 150px;
+    margin-top: 10px;
     margin: auto;
   }
 
-  .about-right li {
-    margin-left: -25px;
-    max-width: none;
-    width: 100%;
-    top: 20px;
+  .about-right .timeline-container ul {
+    position: relative;
+    text-align: center;
+    width: 85%;
+    list-style: none;
+    left: 0;
+    top: 0;
+    font-size: 1rem;
+  }
+
+  .about-right .timeline-container ul li {
+    font-size: 1rem;
+    line-height: 1.4rem;
   }
 
   #Map .uk-modal-body {

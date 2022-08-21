@@ -256,11 +256,13 @@
   }
 
   .orange-box {
-    padding: 1rem;
+    background: var(--TMTP-darkorange);
+    grid-template-columns: 10% 85%;
   }
 
   .orange-box img {
     margin-top: 10px;
+    width: 120px;
   }
 
   .orange-box p {
@@ -464,11 +466,11 @@
   .orange-box p {
     text-align: center;
     font-size: 1.3rem;
-    line-height: 1.8rem;
+    line-height: 1.5rem;
   }
 
   .orange-box p span {
-    line-height: 1.7rem;
+    line-height: 1.3rem;
     font-size: 1.5rem;
     color: white;
   }

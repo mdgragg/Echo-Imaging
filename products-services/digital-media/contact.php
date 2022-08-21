@@ -35,7 +35,7 @@ $email_subject = "New Form submission";
 
 $email_body = "You have received a new message from:\n $name, $company $phone \n\n".
 
-"<b>Here is their Project Description:</b>\n $description \n\n". 
+"Here is their Project Description:\n $description \n\n". 
 "More Info (if filled out): $goals \n".
 "Project Timeline: $timeline \n". 
 "Branded/Art Available: $art  \n \n".
