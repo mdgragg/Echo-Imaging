@@ -86,7 +86,7 @@ p {
 
 .uk-offcanvas-bar {
   background: #414042;
-  padding-top: 20rem;
+  padding-top: 10rem;
 }
 
 .uk-offcanvas-bar div .uk-nav .uk-active a {
@@ -106,6 +106,15 @@ p {
   font-family: "DIN-Mittelschrift", sans-serif;
   font-size: 1.3rem;
   line-height: 0.7rem;
+  display: grid;
+  grid-template-columns: 100%;
+  margin-top: 5px;
+}
+
+.uk-offcanvas-bar div .uk-nav .uk-parent .uk-nav-sub li a span {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 12px;
 }
 
 .uk-offcanvas-bar div .uk-nav .uk-parent .uk-nav-sub {
@@ -217,11 +226,12 @@ form .button-1:hover {
   margin-top: 15rem;
   margin-bottom: 5rem;
   text-align: center;
+  z-index: 1;
 }
 
 .contact-right h1 {
   color: white;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   font-family: "DIN-Mittelschrift";
   font-size: 4.5rem;
 }
@@ -246,6 +256,12 @@ form .button-1:hover {
 
 .contact-right p span a {
   color: white;
+}
+
+.contact-right .second-paragraph {
+  clear: both;
+  display: block;
+  margin-top: 15px;
 }
 
 .mobile-only {

@@ -85,7 +85,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
-    min-height: 350px;
+    min-height: 450px;
     padding-bottom: 45px;
   }
 
@@ -105,6 +105,7 @@
   .header-text p {
     font-size: 1.3rem;
     padding-bottom: 0px;
+    line-height: 2.4rem;
   }
 
   h2 {
@@ -252,6 +253,7 @@
     width: 100%;
     max-width: 600px;
     margin: auto;
+    margin-top: -80px;
   }
 
   .about-container {
@@ -335,43 +337,29 @@
   .header-text {
     width: 90%;
     max-width: 550px;
-    margin: 8rem 2rem 0rem 1rem;
-  }
-
-  .header-text h1 {
-    word-spacing: -5px;
-    line-height: 3rem;
-    font-size: 3.75rem;
-  }
-
-  .header-text p {
-    font-size: 1.3rem;
-    padding-bottom: 0px;
-  }
-
-  header {
-    background-position: top 55% left 100%;
-    min-height: 370px;
-    padding-bottom: 25px;
-    height: 100%;
-    width: 100%;
-  }
-
-  .header-text {
-    width: 85%;
-    max-width: 500px;
-    margin: 5.5rem auto;
+    margin: 1rem;
+    margin-top: 25%;
     text-shadow: 2px 2px 4px #000000;
   }
 
   .header-text h1 {
-    line-height: 2.25rem;
-    font-size: 2.75rem;
+    word-spacing: -5px;
+    line-height: 2.7rem;
+    font-size: 3.2rem;
   }
 
   .header-text p {
     font-size: 1.1rem;
+    line-height: 2.2rem;
     padding-bottom: 10px;
+  }
+
+  header {
+    background-position: top 55% left 100%;
+    min-height: 450px;
+    padding-bottom: 25px;
+    height: 100%;
+    width: 100%;
   }
 
   .icon-container {
@@ -387,7 +375,6 @@
 
   .caseStudy-container {
     width: 100%;
-    max-width: 1900px;
     padding: 1rem 0rem 0rem 0rem;
     display: grid;
     grid-template-columns: 100%;
@@ -561,7 +548,8 @@
 
   .contact-right {
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
+    z-index: 1;
   }
   .contact-right h1 {
     font-size: 3.2rem;

@@ -117,6 +117,12 @@
   line-height: 2.4rem;
 }
 
+.case-study-body .second-paragraph {
+  clear: both;
+  display: block;
+  margin-top: 15px;
+}
+
 .case-study-body ul {
   margin-top: 0px;
   font-size: 1.7rem;
