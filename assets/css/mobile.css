@@ -193,6 +193,10 @@
     margin-bottom: 0rem;
   }
 
+  .uk-container .uk-slideshow-items {
+    min-height: 330px !important;
+  }
+
   .uk-slideshow {
     padding-left: 5px;
     padding-right: 5px;
@@ -202,12 +206,11 @@
   .uk-cover {
     object-fit: scale-down;
     max-width: 545px;
-    margin-top: -25px;
+    margin-top: -75px;
   }
 
   .testimonial p {
     max-width: 400px;
-    font-size: 0.9rem;
   }
 
   .contact-header header {
@@ -474,26 +477,26 @@
   .uk-container .uk-slideshow .uk-slideshow-items li .uk-cover {
     object-fit: scale-down;
     width: 100% !important;
-    margin-top: -65px;
+    margin-top: -115px;
   }
 
   .testimonial {
-    max-width: 330px;
-    width: 70%;
+    max-width: 350px;
+    width: 80%;
     height: 65%;
   }
 
   .testimonial p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .uk-container .uk-slideshow-items {
-    min-height: 250px !important;
+    min-height: 330px !important;
   }
 
   .testimonial p span {
     font-family: "DIN-Mittelschrift";
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: normal;
   }
 

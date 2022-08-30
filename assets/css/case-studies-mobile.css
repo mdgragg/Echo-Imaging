@@ -1,14 +1,28 @@
+@media all and (min-width: 1900px) {
+  .RIDGE-header header {
+    min-height: 650px;
+  }
+
+  .valent-header header {
+    min-height: 700px;
+  }
+
+  .TMTP-header header {
+    min-height: 700px;
+  }
+}
+
 @media all and (min-width: 2200px) {
   .RIDGE-header header {
     min-height: 850px;
   }
 
   .valent-header header {
-    min-height: 750px;
+    min-height: 820px;
   }
 
   .TMTP-header header {
-    min-height: 800px;
+    min-height: 850px;
   }
 }
 
@@ -231,28 +245,36 @@
     grid-template-columns: 100%;
   }
 
+  .green-box p {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .green-box p span {
+    line-height: 1.7rem;
+    font-size: 1.8rem;
+  }
+
   .blue-box {
     display: grid;
-    grid-template-columns: 100%;
-    gap: 2rem;
+    grid-template-columns: 44% 23% 23%;
+    gap: 3rem;
+    height: auto;
+  }
+
+  .blue-box p {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .blue-box p span {
+    line-height: 1.7rem;
+    font-size: 1.8rem;
   }
 
   .blue-box ul {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 100%;
     gap: 0rem;
-    margin-top: -35px;
-    margin-left: 30px;
-  }
-
-  .blue-box ul li {
-    margin-top: -35px;
-    padding: 0px 5px;
-    font-size: 1rem;
-  }
-
-  .blue-box ul li span {
-    font-size: 1.3rem;
   }
 
   .orange-box {
@@ -412,8 +434,14 @@
   }
   .green-box p {
     font-size: 1.3rem;
-    line-height: 1.8rem;
+    line-height: 1.5rem;
   }
+
+  .green-box p span {
+    line-height: 1.3rem;
+    font-size: 1.5rem;
+  }
+
   .valent-imgs {
     justify-self: center;
   }
@@ -427,18 +455,27 @@
   }
   .blue-box p {
     font-size: 1.3rem;
-    line-height: 1.8rem;
+    line-height: 1.5rem;
+    margin-bottom: 50px;
   }
+
+  .blue-box p span {
+    line-height: 1.3rem;
+    font-size: 1.5rem;
+  }
+
   .blue-box {
     display: grid;
     grid-template-columns: 100%;
-    gap: 2rem;
+    gap: 0rem;
   }
 
   .blue-box ul {
     display: grid;
     grid-template-columns: 100%;
-    gap: 2rem;
+    margin-top: -30px;
+    gap: 1rem;
+    margin-left: 20px;
   }
 
   .blue-box ul li {
@@ -468,7 +505,6 @@
   .orange-box p span {
     line-height: 1.3rem;
     font-size: 1.5rem;
-    color: white;
   }
 
   #Map .uk-modal-body {
